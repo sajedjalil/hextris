@@ -166,6 +166,8 @@ function updateHighScores (){
     $("#1place").text(highscores[0]);
     $("#2place").text(highscores[1]);
     $("#3place").text(highscores[2]);
+	$("#4place").text(highscores[1]);
+    $("#5place").text(highscores[2]);
 }
 
 var pausable = true;
