@@ -50,7 +50,7 @@ function writeHighScores() {
 			}
 		}
 	);
-	highscores = highscores.slice(0,5);
+	highscores = highscores.slice(0,3);
 	localStorage.setItem("highscores", JSON.stringify(highscores));
 }
 
